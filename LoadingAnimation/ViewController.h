@@ -7,9 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "LoadingAnimation.h"
 @interface ViewController : UIViewController
 
-
+{
+    
+    
+    UIView *_loadingView;
+    
+    
+    LoadingAnimation *_shapeView;
+    
+    
+    
+}
 @end
 
